@@ -20,20 +20,6 @@ const Login = ({ titulo, google }) => {
       <form className="login__card" onSubmit={handleClickIngresar}>
         <div className="login__head">
           <h1 className="login__title">{titulo}</h1>
-          {google ? (
-            <button
-              className="login__google"
-              onClick={handleClick}
-              type="button"
-            >
-              <img
-                src="/google-icon.svg"
-                alt="imagen de google"
-                className="login__google-img"
-              />
-              <p className="login__google-p">Inicia Sesion con Google</p>
-            </button>
-          ) : null}
         </div>
         <div className="login__cont-inputs">
           <input
@@ -53,9 +39,23 @@ const Login = ({ titulo, google }) => {
         <p className="login__alert">{alertIn}</p>
         <div className="login__cont-buttons">
           {google ? (
-            <button className="login__button" type="submit">
-              Ingresar
-            </button>
+            <>
+              <button
+                className="login__google"
+                onClick={handleClick}
+                type="button"
+              >
+                <img
+                  src="/google-icon.svg"
+                  alt="imagen de google"
+                  className="login__google-img"
+                />
+                {/* <p className="login__google-p">Inicia Sesion con Google</p> */}
+              </button>
+              <button className="login__button" type="submit">
+                Ingresar
+              </button>
+            </>
           ) : (
             <button
               className="login__button"
