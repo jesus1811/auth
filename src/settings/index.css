@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --moradoDark: #4f4587;
+  --moradoLigh: #a574cd;
+  --light: #ffffff;
+  --icon: #b485d8;
+}

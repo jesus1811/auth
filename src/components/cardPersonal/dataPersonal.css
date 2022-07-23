@@ -1,0 +1,76 @@
+.data-personal {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--moradoLigh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.data-personal_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 18.75rem;
+  background: var(--light);
+  border-radius: 0.25rem;
+  padding: 0 0 0.625rem 0;
+}
+.data-personal__head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--moradoDark);
+  padding: 0.9375rem;
+}
+.data-personal__title {
+  font-size: 2.375rem;
+  color: var(--light);
+}
+.data-personal__cont-texts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem 0.9375rem;
+  gap: 1.125rem;
+}
+.data-personal__text {
+  font-size: 20px;
+  color: var(--moradoDark);
+}
+.data-personal__img {
+  border-radius: 50%;
+  width: 9.375rem;
+  height: 9.375rem;
+  object-fit: cover;
+  border: solid 0.3125rem var(--moradoDark);
+}
+.data-personal__cont-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9375rem;
+  gap: 0.9375rem;
+  width: 100%;
+}
+.data-personal__button {
+  padding: 8px 16px;
+  border-radius: 0.25rem;
+  background: transparent;
+  font-size: 1.125rem;
+  color: var(--icon);
+  border: solid 3px var(--icon);
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+.data-personal__button:hover {
+  background: var(--icon);
+  color: var(--light);
+}
