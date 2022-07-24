@@ -1,6 +1,6 @@
 ## Auth Google
 
-This project was made with NodeJS and React 17.
+authentication login
 
 ![Descripción de la imagen](/public/hero-readme.png)
 ## Getting Started
